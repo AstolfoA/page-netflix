@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <h2 class="logo">Netflix</h2>
+            <nav>
+                <a href="./index.html" class="activo">Inicio</a>
+                <a href="./login.html">Login</a>
+                <a href="#">Peliculas</a>
+                <a href="#">Mas Recientes</a>
+                <a href="#">Mi Lista</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="pelicula-prncipal">
+            <div class="contenedor">
+                <h3 class="titulo">La Casa De Papel</h3>
+                <p class="descripcion">Descripción general:
+                    Disfrazados bajo las sombras de una máscara, un equipo de forajidos se une bajo el liderazgo de un cerebro criminal conocido solo como "El Profesor" para llevar a cabo el mayor atraco que Corea haya visto jamás.</p>
+                <button role="button" class="button"><i class="gg-play-button"></i>Reproducir</button>
+                <button role="button" class="button"><i class="gg-info"></i>Mas Informacion</button>
+            </div>
+
+        </div>
+        <div class="peliculas-recomendadas contenedor">
+            <div class="contenedor-titulo-controles">
+                <h3>Peliculas Recomendadas</h3>
+                <div class="indicadores"></div>
+                <button></button>
+                <button></button>
+            </div>
+
+            <div class="contenedor-principal">
+                <button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="gg-arrow-left-o"></i></button>
+
+                <div class="contenedor-carrusel">
+                    <div class="carrusel">
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 1.jpg" alt="pelicula-carrusel1"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 2.jpg" alt="pelicula-carrusel2"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 3.jpg" alt="pelicula-carrusel3"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 4.jpg" alt="pelicula-carrusel4"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 5.jpg" alt="pelicula-carrusel5"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 6.jpg" alt="pelicula-carrusel6"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 7.jpg" alt="pelicula-carrusel7"></a>
+                        </div><div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 3.jpg" alt="pelicula-carrusel3"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 4.jpg" alt="pelicula-carrusel4"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 5.jpg" alt="pelicula-carrusel5"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 6.jpg" alt="pelicula-carrusel6"></a>
+                        </div>
+                        <div class="pelicula">
+                            <a href="#"><img src="./image/imagen/carrusel 7.jpg" alt="pelicula-carrusel7"></a>
+                        </div>
+                            
+                           
+                    </div>
+                </div>
+
+                <button role="button" id="flecha-derecha" class="flecha-derecha"><i class="gg-arrow-right-o"></i></button>
+
+            </div>
+        </div>
+    </main>
+
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/play-button.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/info.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left-o.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right-o.css' rel='stylesheet'>
+
+    <footer class="footer">
+        <h4>¿Preguntas? Llama al 800 914 143</h4>
+        <div class="container4">
+          <div class="footer__contenido">
+            <ul>
+              <li><a href="#">Preguntas frecuentes</a></li>
+              <li><a href="#">Preferencias de cookies</a></li>
+            </ul>
+          </div>
+          <div class="footer__contenido">
+            <ul>
+                <li><a href="#">Centro de ayuda</a></li>
+                <li><a href="#">Informacion cooperativa</a></li>
+              </ul>
+          </div>
+          <div class="footer__contenido">
+            <ul>
+                <li><a href="#">Terminos de uso</a></li>
+              </ul>
+          </div>
+          <div class="footer__contenido">
+            <ul>
+                <li><a href="#">Privacidad</a></li>
+              </ul>
+          </div>
+          <select name="" id="lenguajeselect" datavia="lenguaje-picker">
+            <option selected lang="es" label="español" value="es-cl">español</option>
+            <option selected lang="en" label="english" value="en-cl">ingles</option>
+
+          </select>
+        </div>
+      </footer>
+
+    
+
+</body>
+</html>
